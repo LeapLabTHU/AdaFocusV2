@@ -7,7 +7,7 @@
 - torchvision 0.8.0
 
 ## Datasets
-1. Please get the train/test split files for each dataset from [Google Drive](https://drive.google.com/drive/folders/1L41U4mczsrnwiSx3KiY57BblrRE5fjnU?usp=sharing) and put them in `PATH_TO_DATASET`.
+1. Please get the train/test split files for each dataset from [Google Drive](https://drive.google.com/drive/folders/1QZ2gVoGMh3Xe20kgdG6s7cnQTYsDWQXz?usp=sharing) and put them in `PATH_TO_DATASET`.
 2. Download videos from following links, or contact the corresponding authors for the access. 
 
    - [ActivityNet-v1.3](http://activity-net.org/download.html) 
@@ -48,9 +48,9 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py  \
 
 To get all training commands, please refer to `scripts/train.sh`
 
-## Pretrained Models
+## Pre-trained Models
 
-We provide pre-trained models for multiple patch sizes and datasets.
+We provide pre-trained models for multiple patch sizes and datasets. All pre-trained models are available at [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/5f686486750f4cf6a11a/) / [Google Drive]()
 
 ### ActivityNet
 
