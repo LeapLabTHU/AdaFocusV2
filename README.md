@@ -4,8 +4,6 @@ This repo contains the official code and pre-trained models for AdaFocusV2.
 
 - AdaFocus V2: End-to-End Training of Spatial Dynamic Networks for Video Recognition
 
-**Update on 2021/12/28: Release Code and Pre-trained models.**
-
 
 ## Introduction
 
