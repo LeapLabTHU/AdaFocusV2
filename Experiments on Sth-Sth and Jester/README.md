@@ -1,4 +1,4 @@
-# Experiments on Something-Something V1&V2
+# Experiments on Something-Something V1&V2 and Jester
 
 ## Requirements
 - python 3.8
@@ -7,7 +7,7 @@
 
 
 ## Datasets
-- Please follow the instruction of [TSM](https://github.com/mit-han-lab/temporal-shift-module#data-preparation) to prepare the Something-Something V1/V2 and Jester dataset.
+- Please follow the instruction of [TSM](https://github.com/mit-han-lab/temporal-shift-module#data-preparation) to prepare the Something-Something V1/V2 and Jester datasets.
 
 - After preparation, please edit the "ROOT_DATASET" in [ops/dataset_config.py](ops/dataset_config.py) to the correct path of the dataset.
 
@@ -22,7 +22,7 @@
 Run the following command. Note that the dataset and patch size should be specified (i.e., at [something/somethingv2/jester] and [128/144/160/176])
 ```
 
-python main_adafocus_random_stn_final.py [something/somethingv2/jester] RGB \
+python main.py [something/somethingv2/jester] RGB \
      --root_log PATH_TO_SAVE_LOG  --root_model PATH_TO_SAVE_CKPT \
      --arch resnet50 --num_segments 8 \
      --gd 20 -j 8 --lr_steps 0 0 --lr_type cos --epochs 50 \

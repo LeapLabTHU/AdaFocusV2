@@ -90,7 +90,6 @@ class TSN(nn.Module):
             setattr(self.base_model, self.base_model.last_layer_name, nn.Dropout(p=self.dropout))
             self.new_fc = nn.Linear(feature_dim, num_class)
             self.new_new_fc = nn.Linear(feature_dim, num_class)
-            print('.detach()')
 
         std = 0.001
         if self.new_fc is None:

@@ -124,7 +124,8 @@ class AdaFocus(nn.Module):
             return global_logit + local_logit, global_reg_logit, local_reg_logit
 
     def get_optim_policies(self):
-        return [{'params': self.global_CNN.parameters(), 'lr_mult': args.global_lr_ratio, 'decay_mult': 1, 'name': "global_CNN"}] \
+        return [{'params': self.policy_stn.parameters(), 'lr_mult': args.stn_lr_ratio, 'decay_mult': 1, 'name': "policy_stn"}] \
+               + [{'params': self.global_CNN.parameters(), 'lr_mult': args.global_lr_ratio, 'decay_mult': 1, 'name': "global_CNN"}] \
                + [{'params': self.local_CNN.parameters(), 'lr_mult': 1, 'decay_mult': 1, 'name': "local_CNN"}]
 
 
@@ -344,11 +345,6 @@ def train(train_loader, model, criterion, optimizer, epoch, log, tf_writer):
     for i, (input_glance, input_focus, target) in enumerate(train_loader):
         # measure data loading time
         data_time.update(time.time() - end)
-
-        if i == 0:
-            print(input_glance.size())
-            print(input_focus.size())
-            print(target.size())
 
         target = target.cuda()
 
