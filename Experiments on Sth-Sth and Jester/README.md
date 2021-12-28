@@ -1,4 +1,4 @@
-# Experiments on Something-Something V1&V2
+# Experiments on Something-Something V1&V2 and Jester
 
 ## Requirements
 - python 3.8
