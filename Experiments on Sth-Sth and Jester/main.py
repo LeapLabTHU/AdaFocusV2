@@ -124,7 +124,8 @@ class AdaFocus(nn.Module):
             return global_logit + local_logit, global_reg_logit, local_reg_logit
 
     def get_optim_policies(self):
-        return [{'params': self.global_CNN.parameters(), 'lr_mult': args.global_lr_ratio, 'decay_mult': 1, 'name': "global_CNN"}] \
+        return [{'params': self.policy_stn.parameters(), 'lr_mult': args.stn_lr_ratio, 'decay_mult': 1, 'name': "policy_stn"}] \
+               + [{'params': self.global_CNN.parameters(), 'lr_mult': args.global_lr_ratio, 'decay_mult': 1, 'name': "global_CNN"}] \
                + [{'params': self.local_CNN.parameters(), 'lr_mult': 1, 'decay_mult': 1, 'name': "local_CNN"}]
 
 
