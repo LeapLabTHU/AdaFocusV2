@@ -17,7 +17,7 @@ Recent works have shown that the computational efficiency of video recognition c
 </p>
 
 
-## Result
+## Results
 
 
 - Compared with AdaFocusV1
