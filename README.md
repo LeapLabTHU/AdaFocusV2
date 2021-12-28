@@ -21,11 +21,21 @@ Recent works have shown that the computational efficiency of video recognition c
 - Compared with AdaFocusV1
 
 <p align="center">
+    <img src="./figure/vsv1_0.png" width= "400">
+    <img src="./figure/vsv1_1.png" width= "400">
+</p>
+
+
+<p align="center">
     <img src="./figure/vsv1.png" width= "900">
 </p>
 
 
-- ActivityNet
+- ActivityNet, FCVID and Mini-Kinetics
+
+<p align="center">
+    <img src="./figure/actnet_tab.png" width= "850">
+</p>
 
 <p align="center">
     <img src="./figure/actnet.png" width= "850">
