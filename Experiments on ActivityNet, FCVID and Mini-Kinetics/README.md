@@ -50,7 +50,7 @@ To get all training commands, please refer to `scripts/train.sh`
 
 ## Pre-trained Models
 
-We provide pre-trained models for multiple patch sizes and datasets. All pre-trained models are available at [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/5f686486750f4cf6a11a/) / [Google Drive]()
+We provide pre-trained models for multiple patch sizes and datasets. All pre-trained models are available at [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/5f686486750f4cf6a11a/) / [Google Drive](https://drive.google.com/drive/folders/1WYLdg6Vzngl16lJfQZCGNnSbLF7YXB_A?usp=sharing)
 
 ### ActivityNet
 
