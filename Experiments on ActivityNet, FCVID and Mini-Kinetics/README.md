@@ -32,11 +32,14 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py \
   --hidden_dim 1024 --stn_hidden_dim 2048 --sample
 ```
 
-To use res50 as global CNN, a res50 model pretrained on ImageNet with image size 96 is required, which can be download from here. (file name: `Initialization_model_prime_resnet50_patch_size_96_or_128.pth`)
+To use res50 as global CNN, a res50 model pretrained on ImageNet with image size 96 is required. (In this setting the Global CNN takes down-sampled input of size 96).
+
+- File name: `Initialization_model_prime_resnet50_patch_size_96.pth`
+- Links: [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/5f686486750f4cf6a11a/) / [Google Drive](https://drive.google.com/drive/folders/1WYLdg6Vzngl16lJfQZCGNnSbLF7YXB_A?usp=sharing)
 
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py  \
-  --glance_arch res50 --glance_ckpt_path RES50_INIT_PATH \
+  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96.pth \
   --dataset actnet --data_dir PATH_TO_DATASET \
   --root_log LOG_DIR \
   --workers 8 --num_segments 16 --dropout 0.2  --fc_dropout 0.2  \
@@ -50,7 +53,7 @@ To get all training commands, please refer to `scripts/train.sh`
 
 ## Pre-trained Models
 
-We provide pre-trained models for multiple patch sizes and datasets. All pre-trained models are available at [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/5f686486750f4cf6a11a/) / [Google Drive](https://drive.google.com/drive/folders/1WYLdg6Vzngl16lJfQZCGNnSbLF7YXB_A?usp=sharing)
+We provide pre-trained models for multiple patch sizes and datasets. All pre-trained models are available at [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/5f686486750f4cf6a11a/) / [Google Drive](https://drive.google.com/drive/folders/1WYLdg6Vzngl16lJfQZCGNnSbLF7YXB_A?usp=sharing).
 
 ### ActivityNet
 

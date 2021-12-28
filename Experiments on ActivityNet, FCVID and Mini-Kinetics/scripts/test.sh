@@ -32,7 +32,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py \
 
 #### actnet res50 p96,p128,p160
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py  \
-  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96_or_128.pth \
+  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96.pth \
   --dataset actnet --data_dir /mnt/data2/170/actnet \
   --workers 8 --num_segments 16 --dropout 0.2  --fc_dropout 0.2  \
   --epochs 50 --lr 0.002 --lr_type cos --lr_steps 0 0 \
@@ -42,7 +42,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py  \
   --resume ckpt/actnet_p96_res50.pth.tar
 
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py  \
-  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96_or_128.pth \
+  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96.pth \
   --dataset actnet --data_dir /mnt/data2/170/actnet \
   --workers 8 --num_segments 16 --dropout 0.2  --fc_dropout 0.2  \
   --epochs 50 --lr 0.002 --lr_type cos --lr_steps 0 0 \
@@ -52,7 +52,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py  \
   --resume ckpt/actnet_p128_res50.pth.tar
 
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py  \
-  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96_or_128.pth \
+  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96.pth \
   --dataset actnet --data_dir /mnt/data2/170/actnet \
   --workers 8 --num_segments 16 --dropout 0.2  --fc_dropout 0.2  \
   --epochs 50 --lr 0.002 --lr_type cos --lr_steps 0 0 \
@@ -75,7 +75,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py \
 ### fcvid res50 p128
 
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py  \
-  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96_or_128.pth \
+  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96.pth \
   --dataset fcvid --data_dir /mnt/data2/fcvid \
   --workers 8 --num_segments 16 --dropout 0.2  --fc_dropout 0.2  \
   --epochs 50 --lr 0.002 --lr_type cos --lr_steps 0 0 \
@@ -98,7 +98,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py \
 
 #### minik res50 p128
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main_v2.py \
-  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96_or_128.pth \
+  --glance_arch res50 --glance_ckpt_path ckpt/Initialization_model_prime_resnet50_patch_size_96.pth \
   --dataset minik --data_dir /home/data2/kinetics400_dataset/kinetics400_1/kinetics400 \
   --workers 8 --num_segments 16 --dropout 0.2  --fc_dropout 0.2  \
   --epochs 50 --lr 0.003 --lr_type cos --lr_steps 0 0 \
