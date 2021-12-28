@@ -345,11 +345,6 @@ def train(train_loader, model, criterion, optimizer, epoch, log, tf_writer):
         # measure data loading time
         data_time.update(time.time() - end)
 
-        if i == 0:
-            print(input_glance.size())
-            print(input_focus.size())
-            print(target.size())
-
         target = target.cuda()
 
         # target = torch.cat([target, target], 0)
