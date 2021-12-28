@@ -9,7 +9,7 @@
 ## Datasets
 - Please follow the instruction of [TSM](https://github.com/mit-han-lab/temporal-shift-module#data-preparation) to prepare the Something-Something V1/V2 and Jester dataset.
 
-- After preparation, please edit the "ROOT_DATASET" in [ops/dataset_config.py](dataset_config.py) to the correct path of the dataset.
+- After preparation, please edit the "ROOT_DATASET" in [ops/dataset_config.py](ops/dataset_config.py) to the correct path of the dataset.
 
 
 ## Pre-trained Models
