@@ -57,7 +57,7 @@ We provide pre-trained models for multiple patch sizes and datasets. All pre-tra
 
 ### ActivityNet
 
-| file name                 | Arch                | Patch Size | mAP  | GFLOPS |
+| File name                 | Arch                | Patch Size | mAP  | GFLOPS |
 | :------------------------ | ------------------- | ---------- | ---- | ------ |
 | actnet_p96_mbv2.pth.tar   | MobileNetV2 + Res50 | 96         | 77.4 | 17.6   |
 | actnet_p128_mbv2.pth.tar  | MobileNetV2 + Res50 | 128        | 79.0 | 27.0   |
@@ -68,14 +68,14 @@ We provide pre-trained models for multiple patch sizes and datasets. All pre-tra
 
 ### FCVID
 
-| file name                | Arch                | Patch Size | mAP  | GFLOPS |
+| File name                | Arch                | Patch Size | mAP  | GFLOPS |
 | ------------------------ | ------------------- | ---------- | ---- | ------ |
 | fcvid_p128_mbv2.pth.tar  | MobileNetV2 + Res50 | 128        | 85.0 | 27.0   |
 | fcvid_p128_res50.pth.tar | Res50               | 128        | 84.5 | 34.1   |
 
 ### Mini-Kinetics
 
-| file name                | Arch                | Patch Size | Acc1 | GFLOPS |
+| File name                | Arch                | Patch Size | Acc1 | GFLOPS |
 | ------------------------ | ------------------- | ---------- | ---- | ------ |
 | minik_p128_mbv2.pth.tar  | MobileNetV2 + Res50 | 128        | 75.4 | 27.0   |
 | minik_p128_res50.pth.tar | Res50               | 128        | 74.0 | 34.1   |
