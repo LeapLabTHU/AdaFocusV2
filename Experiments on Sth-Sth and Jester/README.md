@@ -14,8 +14,22 @@
 
 ## Pre-trained Models
 
-- TODO
+We provide the pre-trained models with varying patch sizes. All pre-trained models are available at [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/e695feb81cf14ba8b0ed/) / [Google Drive](https://drive.google.com/drive/folders/1ETQb7aOGb4bePhVP82vFB24pqgn0UAkV?usp=sharing).
 
+### ActivityNet
+
+| File name                 | Dataset                | Patch Size | Top-1 Acc.  | GFLOPS |
+| :------------------------ | ------------------- | ---------- | ---- | ------ |
+| sthv1_p128.pth.tar   | Sth-Sth V1 | 128         | 47.0 | 18.5   |
+| sthv1_p144.pth.tar   | Sth-Sth V1 | 144         | 48.2 | 23.5   |
+| sthv1_p160.pth.tar   | Sth-Sth V1 | 160         | 48.6 | 27.5   |
+| sthv1_p176.pth.tar   | Sth-Sth V1 | 176         | 49.6 | 33.7   |
+| sthv2_p128.pth.tar   | Sth-Sth V2 | 128         | 59.6 | 18.5   |
+| sthv2_p144.pth.tar   | Sth-Sth V2 | 144         | 60.5 | 23.5   |
+| sthv2_p160.pth.tar   | Sth-Sth V2 | 160         | 60.8 | 27.5   |
+| sthv2_p176.pth.tar   | Sth-Sth V2 | 176         | 61.3 | 33.7   |
+| jester_p128.pth.tar   | Jester | 128         | 96.6 | 18.5   |
+| jester_p176.pth.tar   | Jester | 176         | 96.9 | 33.7   |
 
 ## Training
 
