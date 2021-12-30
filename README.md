@@ -2,7 +2,7 @@
 
 This repo contains the official code and pre-trained models for AdaFocusV2.
 
-- AdaFocus V2: End-to-End Training of Spatial Dynamic Networks for Video Recognition
+- [AdaFocus V2: End-to-End Training of Spatial Dynamic Networks for Video Recognition](https://arxiv.org/abs/2112.14238)
 
 <br>
 
