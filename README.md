@@ -1,4 +1,4 @@
-# AdaFocusV2
+# AdaFocusV2 (CVPR-2022)
 
 This repo contains the official code and pre-trained models for AdaFocusV2.
 
