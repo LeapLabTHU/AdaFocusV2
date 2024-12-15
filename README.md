@@ -4,6 +4,9 @@ This repo contains the official code and pre-trained models for AdaFocusV2.
 
 - [AdaFocus V2: End-to-End Training of Spatial Dynamic Networks for Video Recognition](https://arxiv.org/abs/2112.14238)
 
+
+**Update: The latest version of the AdaFocus series, [Uni-AdaFocus (TPAMI'24)](https://github.com/LeapLabTHU/Uni-AdaFocus) has been released!** This repository is no longer maintained.
+
 <br>
 
 
